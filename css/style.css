@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+    background: radial-gradient(white, skyblue);
+        font-family: 'Galada', cursive;
+
+}
+.wrapper{
+    height: 350px;
+    width: 300px;
+    border: 8px solid black;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    background:linear-gradient(#fb4c1f,coral);
+    border-radius: 10px 10px 0 0;
+    color: Yellow;
+}
+
+span{
+    border-bottom: dashed 2px black;
+    display: block;
+    height:90%;
+}
+.wrap-list{
+    height: 88%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+input[type="checkbox"]{
+    float: right;
+    position: relative;
+    top:12px;
+    right: 14px;   
+   
+}
+
+input[type="checkbox"]:checked + label{
+text-decoration: line-through;
+opacity: 0.3;
+}
+
+.list{
+    list-style: none;
+/*    width: 100%;*/
+}
+
+.list li{
+    width: 100%;
+    float: left;
+}
+label{
+    padding: 10px;
+    float: left;
+    width: 90%
+}
+.grey{
+    background:#caf0f8;
+}
